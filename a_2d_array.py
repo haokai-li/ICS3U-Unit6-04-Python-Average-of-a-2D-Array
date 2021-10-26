@@ -48,6 +48,7 @@ def main():
         # call functions
         average_number = calculated_average(a_2d_array)
         # output
+        print("")
         print("The average of all the number is: {:.2f}".format(average_number))
 
     except Exception:
